@@ -7,7 +7,7 @@ import { SignUpCard } from "./sign-up-card";
 import { SignInCard } from "./sign-in-card";
 
 export const AuthScreen = () => {
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+   
     const [state, setState] = useState<SignInFlow> ("signIn");
 
     return (
